@@ -8,7 +8,7 @@ end
 
 def parse
  email_arr = emails.split.map {|email| email.split(",")}
-
+ email_arr.uniq
 end
 
 end
