@@ -11,6 +11,7 @@ def parse
   emails.split(',')
   emails
 end
+end
 
 end
 
