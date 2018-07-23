@@ -7,9 +7,8 @@ def initialize(emails)
 end
 
 def parse
-  emails.split.map do |email|
-    email.split(",")
-  email_arr.uniq
+ email_arr = emails.split.map {|email| email.split(",")}
+
 end
 
 end
