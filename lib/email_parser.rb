@@ -7,8 +7,7 @@ def initialize(emails)
 end
 
 def parse
-  emails.split.map do |email|
-  email.split(",")
+  emails.split(",")
 end
 end
 
