@@ -7,8 +7,8 @@ def initialize(emails)
 end
 
 def parse
-  emails.split(",")
-  emails.uniq
+  email_arr = emails.split(",")
+  email_arr.uniq
 end
 
 end
