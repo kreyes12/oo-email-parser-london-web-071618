@@ -6,8 +6,7 @@ def initialize(emails)
   @emails = emails
 end
 
-def parse
-  emails.map do |email|
+def parse(emails)
   emails.split(',')
   emails
 end
