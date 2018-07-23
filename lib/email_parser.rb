@@ -8,6 +8,7 @@ end
 
 def parse
   emails.split.map do |email|
+    email.split(",")
   emails.uniq
 end
 
