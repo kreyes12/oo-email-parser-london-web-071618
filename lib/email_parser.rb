@@ -10,6 +10,7 @@ def parse
   emails.split.map do |email|
   emails.split(',')
 end
+  emails.flatten
 end
 
 end
