@@ -8,8 +8,6 @@ end
 
 def parse(emails)
   emails.split(',')
-  emails
-end
 end
 
 end
