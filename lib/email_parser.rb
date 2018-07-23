@@ -11,6 +11,7 @@ def parse
     email.split(",")
   emails.uniq
 end
+end
 
 end
 
